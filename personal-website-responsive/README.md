@@ -41,7 +41,7 @@ This guide helps you create a **professional personal portfolio** with the follo
       - `Work2.png` – Project screenshot 2
       - `Work3.png` – Project screenshot 3
     - **docs/**
-      - `CV-Jason-EN.pdf` – Downloadable CV
+      - `CV-YourName-EN.pdf` – Downloadable CV
 
 ---
 
@@ -62,7 +62,7 @@ This guide helps you create a **professional personal portfolio** with the follo
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jason López Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="assets/css/styles.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -71,7 +71,7 @@ This guide helps you create a **professional personal portfolio** with the follo
   <!-- Header -->
   <header>
     <nav>
-      <a href="#home">Jason</a>
+      <a href="#home">Yourname</a>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -85,18 +85,18 @@ This guide helps you create a **professional personal portfolio** with the follo
   <!-- Sections -->
   <main>
     <section id="home">
-      <h1>Hi, I'm Jason</h1>
-      <p>Cloud enthusiast • IT Specialist</p>
+      <h1>Hi, I'm Yourname</h1>
+      <p>Cloud enthusiast • Web-Developer</p>
       <a href="#contact">Contact Me</a>
       <a href="#work">View Projects</a>
-      <a href="assets/docs/CV-Jason-EN.pdf" download>Download CV</a>
-      <img src="assets/img/perfil.png" alt="Jason López">
+      <a href="assets/docs/CV-YourName-EN.pdf" download>Download CV</a>
+      <img src="assets/img/perfil.png" alt="YourName">
     </section>
 
     <section id="about">
       <h2>About Me</h2>
-      <img src="assets/img/about.png" alt="About Jason">
-      <p>With 3 years of experience in IT infrastructure and technical support.</p>
+      <img src="assets/img/about.png" alt="About You">
+      <p>With years of experience in Web development and Cloud.</p>
     </section>
 
     <section id="skills">
@@ -104,7 +104,7 @@ This guide helps you create a **professional personal portfolio** with the follo
       <div class="skill-card">
         <i class='bx bxl-aws'></i>
         <h3>AWS Cloud</h3>
-        <p>EC2, S3, and cloud infrastructure</p>
+        <p>Html, Css, and cloud infrastructure</p>
       </div>
       <!-- Add more skills here -->
     </section>
@@ -120,13 +120,13 @@ This guide helps you create a **professional personal portfolio** with the follo
 
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>Email: jasonmlopez321@gmail.com</p>
-      <p>Location: Dominican Republic</p>
+      <p>Email: yourname@gmail.com</p>
+      <p>Location: Your Contry</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Jason López</p>
+    <p>&copy; 2025 Your Name</p>
   </footer>
 
   <script src="assets/js/main.js"></script>
