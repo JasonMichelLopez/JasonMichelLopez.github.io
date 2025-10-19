@@ -6,11 +6,14 @@
 
 A **step-by-step professional guide** to build a responsive personal portfolio website using **HTML, CSS, and JavaScript**, including tips for images, folders, and customization.
 
+## This shows the final result of the portfolio website built following this guide.
+[My personal Website](https://www.jasonlopez.xyz/)
+
 ---
 
 ## 🚀 Project Overview
 
-This guide helps you create a [**professional personal portfolio**](https://jasonlopez.xyz) with the following sections:
+This guide helps you create a **professional personal portfolio** with the following sections:
 
 - **Home / Hero:** Introduction with profile photo, buttons for CV download and contact.  
 - **About Me:** Personal description, achievements, and experience.  
@@ -19,7 +22,6 @@ This guide helps you create a [**professional personal portfolio**](https://jaso
 - **Contact:** Email, location, and social links.  
 - **Footer:** Copyright
 
-> 💡 **Tip:** Use semantic HTML for SEO and accessibility.
 
 ---
 
