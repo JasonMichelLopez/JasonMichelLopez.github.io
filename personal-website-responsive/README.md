@@ -10,7 +10,7 @@ A **step-by-step professional guide** to build a responsive personal portfolio w
 
 ## 🚀 Project Overview
 
-This guide helps you create a **professional personal portfolio** with the following sections:
+This guide helps you create a [**professional personal portfolio**](https://jasonlopez.xyz) with the following sections:
 
 - **Home / Hero:** Introduction with profile photo, buttons for CV download and contact.  
 - **About Me:** Personal description, achievements, and experience.  
@@ -41,8 +41,6 @@ This guide helps you create a **professional personal portfolio** with the follo
     - **docs/**
       - `CV-Jason-EN.pdf` – Downloadable CV
 
-> 💡 **Tip:** Replace placeholder images with your personal photos and project screenshots.
-
 ---
 
 ## 🛠 Technologies Used
@@ -54,7 +52,7 @@ This guide helps you create a **professional personal portfolio** with the follo
 
 ---
 
-## ⚡ Step 1: HTML (index.html)
+##  Step 1: HTML (index.html)
 
 ```html
 <!DOCTYPE html>
@@ -132,3 +130,88 @@ This guide helps you create a **professional personal portfolio** with the follo
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+```
+
+## Step 2: CSS (assets/css/styles.css)
+
+```css
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f2937;
+  --bg-color: #ffffff;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--bg-color);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+section {
+  padding: 3rem 2rem;
+}
+
+.skill-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+```
+## Step 3: JavaScript (assets/js/main.js)
+
+```js
+document.addEventListener('DOMContentLoaded', function() {
+  const navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        window.scrollTo({ top: targetSection.offsetTop - 70, behavior: 'smooth' });
+      }
+    });
+  });
+});
+```
+
+## Step 4: Adding Images
+
+| Section     | File               | Description         |
+| ----------- | ------------------ | ------------------- |
+| Home / Hero | `profile.png`      | Profile photo       |
+| About       | `about.png`        | About section image |
+| Projects    | `project1.png` ... | Project screenshots |
+
+## Step 5: Customizing Content
+- Replace all placeholder images with your personal images.
+- Update text in About, Skills, Projects, and Contact sections.
+- Update CV link in Home section.
+- Add new skills or projects by duplicating the HTML cards.
+
+## Step 6: Test Your Website
+- Open index.html in a browser.
+- Check responsiveness on different devices.
+- Verify all buttons, links, and hover effects work.
